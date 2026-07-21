@@ -1,0 +1,145 @@
+.about{
+
+padding:120px 8%;
+
+background:#080808;
+
+}
+
+.aboutContainer{
+
+display:grid;
+
+grid-template-columns:1fr 1fr;
+
+gap:80px;
+
+align-items:center;
+
+max-width:1200px;
+
+margin:auto;
+
+}
+
+.aboutImage img{
+
+border-radius:20px;
+
+box-shadow:0 20px 60px rgba(0,0,0,.5);
+
+}
+
+.aboutText span{
+
+color:#d60000;
+
+font-weight:700;
+
+letter-spacing:3px;
+
+text-transform:uppercase;
+
+}
+
+.aboutText h2{
+
+font-size:3rem;
+
+margin:20px 0;
+
+line-height:1.2;
+
+}
+
+.aboutText p{
+
+font-size:1rem;
+
+color:#bbb;
+
+line-height:2;
+
+margin-bottom:40px;
+
+}
+
+.aboutCards{
+
+display:grid;
+
+grid-template-columns:repeat(2,1fr);
+
+gap:20px;
+
+}
+
+.card{
+
+background:rgba(255,255,255,.05);
+
+backdrop-filter:blur(20px);
+
+padding:30px;
+
+border-radius:20px;
+
+border:1px solid rgba(255,255,255,.08);
+
+transition:.35s;
+
+}
+
+.card:hover{
+
+transform:translateY(-10px);
+
+border-color:#d60000;
+
+}
+
+.card svg{
+
+font-size:2rem;
+
+color:#d60000;
+
+margin-bottom:15px;
+
+}
+
+.card h3{
+
+margin-bottom:10px;
+
+}
+
+.card p{
+
+margin:0;
+
+line-height:1.6;
+
+}
+
+@media(max-width:900px){
+
+.aboutContainer{
+
+grid-template-columns:1fr;
+
+}
+
+.aboutCards{
+
+grid-template-columns:1fr;
+
+}
+
+.aboutText h2{
+
+font-size:2.3rem;
+
+}
+
+}
