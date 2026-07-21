@@ -62,19 +62,19 @@ export default function Footer() {
 
                     <div className="icons">
 
-                        <a href="#">
+                        <a href="https://www.instagram.com/ofc_dido?igsh=OGIxOWwxb29oYnNt&utm_source=qr" target="_blank">
 
                             <FaInstagram/>
 
                         </a>
 
-                        <a href="#">
+                        <a href="https://open.spotify.com/intl-pt/artist/6QrleOqfdPP8VHWBxQ2NQr?si=9Ci8tujNT5S1TDBh1lADoA" target="_blank">
 
                             <FaSpotify/>
 
                         </a>
 
-                        <a href="#">
+                        <a href="https://www.youtube.com/@ofcdido" target="_blank">
 
                             <FaYoutube/>
 
