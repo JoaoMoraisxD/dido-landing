@@ -7,7 +7,7 @@ import "./Repertoire.css";
 const musics = [
   {
     title: "Livre",
-    image: "/images/albums/album1.jpeg",
+    image: `${import.meta.env.BASE_URL}images/albums/album1.jpeg`,
     description: "Rap Melódico",
 
     spotify:
@@ -22,7 +22,7 @@ const musics = [
 
   {
     title: "Colirio",
-    image: "/images/albums/album2.jpeg",
+    image: `${import.meta.env.BASE_URL}images/albums/album2.jpeg`,
     description: "Trap",
 
     spotify:
@@ -37,7 +37,7 @@ const musics = [
 
   {
     title: "Deuses",
-    image: "/images/albums/album3.jpeg",
+    image: `${import.meta.env.BASE_URL}images/albums/album3.jpeg`,
     description: "Trap",
 
     spotify:
@@ -52,7 +52,7 @@ const musics = [
 
   {
     title: "Vagabundo",
-    image: "/images/albums/album4.jpeg",
+    image: `${import.meta.env.BASE_URL}images/albums/album4.jpeg`,
     description: "Rap",
 
     spotify:
