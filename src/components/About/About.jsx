@@ -32,7 +32,7 @@ export default function About() {
                 >
 
                     <img
-                        src="/images/about.png"
+                        src={`${import.meta.env.BASE_URL}images/about.png`}
                         alt="Didô"
                     />
 
