@@ -32,7 +32,7 @@ export default function About() {
                 >
 
                     <img
-                        src="/images/about.jpeg"
+                        src="/images/about.png"
                         alt="Didô"
                     />
 
